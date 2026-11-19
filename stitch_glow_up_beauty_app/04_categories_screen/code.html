@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_tab" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { colors: { "surface-dim": "#e2d7df", "outline-variant": "#ddbfc4", "primary-fixed-dim": "#ffb1c2", "tertiary-container": "#aa5c77", "on-tertiary-fixed-variant": "#733049", "secondary-fixed-dim": "#dac0c9", "on-secondary-container": "#735f67", "outline": "#8a7175", "background": "#fff7fa", "on-secondary-fixed-variant": "#544249", "inverse-surface": "#352e35", "error-container": "#ffdad6", "on-tertiary-container": "#fffbff", "inverse-on-surface": "#f9edf6", "inverse-primary": "#ffb1c2", "on-secondary-fixed": "#26171e", "primary-fixed": "#ffd9e0", "on-secondary": "#ffffff", "on-primary-container": "#fffbff", "surface-container-high": "#f1e5ed", "on-error": "#ffffff", "surface-container-lowest": "#ffffff", "secondary": "#6d5961", "tertiary-fixed": "#ffd9e2", "on-primary": "#ffffff", "surface-variant": "#ebdfe7", "on-tertiary-fixed": "#3c031d", "tertiary-fixed-dim": "#ffb1c8", "on-surface": "#1f1a20", "on-background": "#1f1a20", "on-error-container": "#93000a", "surface-container": "#f6ebf3", "error": "#ba1a1a", "on-primary-fixed-variant": "#8b1141", "primary": "#a82b55", "secondary-fixed": "#f7dce5", "on-tertiary": "#ffffff", "surface": "#fff7fa", "secondary-container": "#f7dce5", "surface-container-highest": "#ebdfe7", "surface-tint": "#ab2d58", "on-surface-variant": "#574145", "primary-container": "#c8446e", "surface-bright": "#fff7fa", "surface-container-low": "#fcf0f9", "on-primary-fixed": "#3f0018", "tertiary": "#8d445e" }, borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, spacing: { "space-lg": "1.5rem", "space-md": "1rem", "space-sm": "0.5rem", "gutter": "1rem", "space-xs": "0.25rem", "space-xl": "2.25rem", "margin": "1.25rem" }, fontFamily: { "display-lg": ["Playfair Display"], "body-md": ["Plus Jakarta Sans"], "label-sm": ["Plus Jakarta Sans"], "body-lg": ["Plus Jakarta Sans"], "headline-sm": ["Playfair Display"], "price-lg": ["Plus Jakarta Sans"], "label-lg": ["Plus Jakarta Sans"], "title-lg": ["Plus Jakarta Sans"], "label-md": ["Plus Jakarta Sans"], "headline-md": ["Playfair Display"], "price-md": ["Plus Jakarta Sans"], "body-sm": ["Plus Jakarta Sans"], "headline-lg": ["Playfair Display"], "title-md": ["Plus Jakarta Sans"] }, fontSize: { "display-lg": ["40px", { lineHeight: "48px", letterSpacing: "-0.02em", fontWeight: "600" }], "body-md": ["14px", { lineHeight: "20px", letterSpacing: "0em", fontWeight: "400" }], "label-sm": ["10px", { lineHeight: "14px", letterSpacing: "0.06em", fontWeight: "700" }], "body-lg": ["16px", { lineHeight: "24px", letterSpacing: "0.01em", fontWeight: "400" }], "headline-sm": ["20px", { lineHeight: "26px", letterSpacing: "0em", fontWeight: "600" }], "price-lg": ["20px", { lineHeight: "24px", letterSpacing: "-0.02em", fontWeight: "700" }], "label-lg": ["14px", { lineHeight: "18px", letterSpacing: "0.02em", fontWeight: "600" }], "title-lg": ["18px", { lineHeight: "24px", letterSpacing: "-0.01em", fontWeight: "700" }], "label-md": ["12px", { lineHeight: "16px", letterSpacing: "0.04em", fontWeight: "600" }], "headline-md": ["24px", { lineHeight: "32px", letterSpacing: "0em", fontWeight: "500" }], "price-md": ["15px", { lineHeight: "20px", letterSpacing: "-0.01em", fontWeight: "700" }], "body-sm": ["12px", { lineHeight: "18px", letterSpacing: "0.01em", fontWeight: "400" }], "headline-lg": ["30px", { lineHeight: "38px", letterSpacing: "-0.01em", fontWeight: "600" }], "title-md": ["16px", { lineHeight: "22px", letterSpacing: "0em", fontWeight: "600" }] } } } }</script><style>@layer base{html,body{width:100vw;margin:0;padding:0;background-color:#fff7fa;}body{overscroll-behavior:none;-webkit-tap-highlight-color:transparent;}.pb-safe{padding-bottom:calc(env(safe-area-inset-bottom,0px) + 5rem);}.pt-safe{padding-top:calc(env(safe-area-inset-top,0px) + 5.5rem);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface font-body-md text-on-surface flex flex-col min-h-screen"><header class="fixed top-0 inset-x-0 z-50 bg-surface/85 backdrop-blur-xl shadow-[0_4px_16px_-2px_rgba(112,45,70,0.05)]"><div class="w-full flex items-center justify-between px-margin pt-1.5 text-on-surface-variant font-label-sm text-label-sm"><span class="font-label-sm font-semibold tracking-tight text-on-surface">9:41</span><div class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px]">signal_cellular_4_bar</span><span class="material-symbols-outlined text-[15px]">wifi</span><span class="material-symbols-outlined text-[17px]">battery_full</span></div></div><div class="h-16 px-margin flex items-center justify-between"><div class="flex items-center gap-space-sm"><img alt="GLOW UP Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCWWn8LC_r-Klyyb8CMAQ7pa9NR9m7xyyp6QCBASe9kRFNIN9DKVEe25zGIxLRfYyybbbD9EoZGsv5tF8SMIefb92DoL4itNdWAay4qRS1Tkje8Zw6QlqUQ0xmBr-PQTIMlVG8gETwbXcb95-ggWWOBY4Wj0Yj7gp0tvtU6xERPWIjIrCWXhff_WEw4szvDsB2RpEu7OHPHd-yHW20CrykMzzxlRdwcmtcV35X5dbT6e8Tig84NxGE3Lg"/><div class="flex flex-col"><span class="font-display-lg text-title-md leading-none text-primary font-bold tracking-tight">GLOW UP</span><span class="font-headline-sm text-headline-sm leading-tight text-on-surface truncate max-w-[140px]">Categories</span></div></div><div class="flex items-center gap-space-xs"><button aria-label="Notifications" class="w-11 h-11 flex items-center justify-center text-on-surface-variant rounded-full active:bg-secondary-fixed/50 transition-colors"><span class="material-symbols-outlined text-[24px]">notifications</span></button><div class="flex items-center justify-center p-0.5 rounded-full ring-1 ring-outline-variant/40"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBKUzX9mTN3xmR3TtGiYusLV1irimKDqgmxP-Zr0yR_mDC_FnYwFA3O7DKfm9qbcb1u0JtMGVbNKpR59qRcQtrHKhnymXpMM45x2DYj3s-0_zR2GYkMyfsJyZPwTtpnTFb8UWDolfU24oO9wRvv22drJVLWy5D-hZoNgbpvX_sOzQ-19L0vgrPKufiPwoly2yIfAaEHJAxgNsLr0a0pPC5_9fX1-8EN6tD-bQrOa8Rlav0LynCUyBtjEQ"/></div></div></div></header><main class="flex-1 flex flex-col relative w-full pt-safe pb-safe bg-surface"><div class="flex flex-col w-full px-margin pb-space-lg">
+<div class="flex flex-col gap-1 mb-space-md">
+<div class="flex items-center gap-space-xs text-primary">
+<span class="material-symbols-outlined text-[16px]">auto_awesome</span>
+<span class="font-label-sm text-label-sm uppercase tracking-widest font-bold">Curated Beauty Archives</span>
+</div>
+<h1 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">Collections &amp; Categories</h1>
+<p class="font-body-md text-body-md text-on-surface-variant">Explore our curated botanical archives, tailored for conscious daily rituals.</p>
+</div>
+<div class="flex flex-col gap-space-sm mb-space-lg">
+<div class="relative flex items-center w-full">
+<span class="material-symbols-outlined absolute left-4 text-on-surface-variant text-[20px] pointer-events-none">search</span>
+<input class="w-full h-[52px] pl-12 pr-12 rounded-full bg-surface-container-high text-on-surface placeholder:text-outline font-body-md text-body-md focus:bg-surface-container-lowest focus:outline-none transition-all duration-200 shadow-sm" id="collection-search" placeholder="Search botanicals, balms, tools..." type="text"/>
+<button aria-label="Filter" class="absolute right-2 w-9 h-9 flex items-center justify-center rounded-full bg-surface text-on-surface-variant active:scale-95 transition-transform">
+<span class="material-symbols-outlined text-[18px]">tune</span>
+</button>
+</div>
+<div class="flex items-center gap-2 overflow-x-auto no-scrollbar py-1">
+<button class="category-chip flex-shrink-0 px-4 py-1.5 rounded-full bg-primary text-on-primary font-label-md text-label-md transition-all active:scale-95">All Formulations</button>
+<button class="category-chip flex-shrink-0 px-4 py-1.5 rounded-full bg-surface-container text-on-surface-variant font-label-md text-label-md transition-all active:scale-95">Cruelty-Free</button>
+<button class="category-chip flex-shrink-0 px-4 py-1.5 rounded-full bg-surface-container text-on-surface-variant font-label-md text-label-md transition-all active:scale-95">Cold-Pressed</button>
+<button class="category-chip flex-shrink-0 px-4 py-1.5 rounded-full bg-surface-container text-on-surface-variant font-label-md text-label-md transition-all active:scale-95">Refillable</button>
+</div>
+</div>
+<div class="grid grid-cols-2 gap-gutter mb-space-xl">
+<!-- Skincare -->
+<div class="group relative flex flex-col rounded-3xl overflow-hidden bg-surface-container-lowest shadow-sm active:scale-[0.98] transition-all duration-200 cursor-pointer">
+<div class="relative w-full aspect-[4/5] overflow-hidden bg-surface-container-high">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Minimalist aesthetic luxury skincare display. Frosted amber and rose glass dropper bottles resting gracefully on soft organic pink marble. Soft natural morning sunlight casting delicate reflections, muted dusty rose and warm beige studio lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAiF-VriMItcPqitlEOEcVrOVCiPGYrePiD-Ymwue8UXZpg11-TVY5DPoGl9A3W9WN72EhUqfwOnfeZllLGvgHTaCrwytvZFqvvMxQgM7egmRzhA0bpUyx6kYsERLOvNLzig8iMei1gRT6M0xA2DZUpxM4rKJSOCUS_fm7gPaFgTcN4rWDMkuZZfOQt4yLaSNJv2zf5W3iLIDMH5Xz4MhgxWdK5RiUtOxHxE-PswiKsd26yaS3p9MW5CQ"/>
+<div class="absolute inset-0 bg-gradient-to-t from-inverse-surface/80 via-inverse-surface/20 to-transparent"></div>
+<div class="absolute top-2.5 right-2.5 px-2 py-0.5 rounded-full bg-surface/90 backdrop-blur-md">
+<span class="font-label-sm text-label-sm text-primary font-bold">42 items</span>
+</div>
+<div class="absolute bottom-3 left-3 right-3 flex flex-col text-on-primary-container">
+<span class="font-headline-sm text-headline-sm text-inverse-on-surface font-semibold tracking-tight leading-tight">Skincare</span>
+<span class="font-body-sm text-body-sm text-outline-variant line-clamp-1 mt-0.5">Serums, Cleansers &amp; Creams</span>
+</div>
+</div>
+<div class="flex items-center justify-between px-3.5 py-2.5 bg-surface-container-lowest">
+<span class="font-label-sm text-label-sm text-on-surface-variant font-medium">Routine Core</span>
+<span class="material-symbols-outlined text-[16px] text-primary group-hover:translate-x-0.5 transition-transform">arrow_forward</span>
+</div>
+</div>
+<!-- Makeup -->
+<div class="group relative flex flex-col rounded-3xl overflow-hidden bg-surface-container-lowest shadow-sm active:scale-[0.98] transition-all duration-200 cursor-pointer">
+<div class="relative w-full aspect-[4/5] overflow-hidden bg-surface-container-high">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Editorial close up of luxurious cosmetic makeup swatches on ivory linen. Rich raspberry lip gloss texture alongside a soft velvety rose blush cream with golden dewy highlights and fine cosmetic pigments." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCxll1S4fiTvdLIl-3DxshPDISs7sGLMhw0xR-jOXv6Lhb9ILZf0L3JFaS9UYz7Mmq67hp98KqwndepjdiKY1NdrNOScJSsgK2e_ejqWassgN-7PFf8nr4jSKtHEm9XkEMR8u45aQ3wN5UrvSnutEtf01PusFRpfk2vqXQJtjl22I9cNoL5ovphomnKygrlJaSDp6xrNtGamp5rPjqvqLPtXhdmzeJ_rTX4-Cp6_Z2iogYyfJNWF0jW_A"/>
+<div class="absolute inset-0 bg-gradient-to-t from-inverse-surface/80 via-inverse-surface/20 to-transparent"></div>
+<div class="absolute top-2.5 right-2.5 px-2 py-0.5 rounded-full bg-surface/90 backdrop-blur-md">
+<span class="font-label-sm text-label-sm text-primary font-bold">28 items</span>
+</div>
+<div class="absolute bottom-3 left-3 right-3 flex flex-col text-on-primary-container">
+<span class="font-headline-sm text-headline-sm text-inverse-on-surface font-semibold tracking-tight leading-tight">Makeup</span>
+<span class="font-body-sm text-body-sm text-outline-variant line-clamp-1 mt-0.5">Luminous Tints, Lip Oils &amp; Cheeks</span>
+</div>
+</div>
+<div class="flex items-center justify-between px-3.5 py-2.5 bg-surface-container-lowest">
+<span class="font-label-sm text-label-sm text-on-surface-variant font-medium">Dewy Glow</span>
+<span class="material-symbols-outlined text-[16px] text-primary group-hover:translate-x-0.5 transition-transform">arrow_forward</span>
+</div>
+</div>
+<!-- Haircare -->
+<div class="group relative flex flex-col rounded-3xl overflow-hidden bg-surface-container-lowest shadow-sm active:scale-[0.98] transition-all duration-200 cursor-pointer">
+<div class="relative w-full aspect-[4/5] overflow-hidden bg-surface-container-high">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Tactile artistic shot of botanical hair treatment elixirs in sleek frosted glass dropper bottles. Golden cold-pressed argan oil shimmering under tender warm light, surrounded by dried rosemary sprigs and wild rose petals." src="https://lh3.googleusercontent.com/aida-public/AB6AXuC3Px-GgJlcPF9MnUcXjxfuIBTBkVgLBuVzHad4hqJH6CqT9hjTsYYdKlm9h6oGJwVe50SbAzr9BoiBaGCACfg9ksEw_2zGGZnDUki5HJzMtgenu00KF26VHaQRyS3H6LraXPks5ATVPiTUXqKwhemt2zxgu-KdJ1rJYARczhMtTsPiGgjD43-d1z79LnOKLrb6vuor_1cmPQO7Zjyzjdr60n1lWlDSy25DjzxDLY0I9B3HTCbJAU4qfA"/>
+<div class="absolute inset-0 bg-gradient-to-t from-inverse-surface/80 via-inverse-surface/20 to-transparent"></div>
+<div class="absolute top-2.5 right-2.5 px-2 py-0.5 rounded-full bg-surface/90 backdrop-blur-md">
+<span class="font-label-sm text-label-sm text-primary font-bold">18 items</span>
+</div>
+<div class="absolute bottom-3 left-3 right-3 flex flex-col text-on-primary-container">
+<span class="font-headline-sm text-headline-sm text-inverse-on-surface font-semibold tracking-tight leading-tight">Haircare</span>
+<span class="font-body-sm text-body-sm text-outline-variant line-clamp-1 mt-0.5">Scalp Serums &amp; Nourishing Elixirs</span>
+</div>
+</div>
+<div class="flex items-center justify-between px-3.5 py-2.5 bg-surface-container-lowest">
+<span class="font-label-sm text-label-sm text-on-surface-variant font-medium">Follicle Care</span>
+<span class="material-symbols-outlined text-[16px] text-primary group-hover:translate-x-0.5 transition-transform">arrow_forward</span>
+</div>
+</div>
+<!-- Fragrance -->
+<div class="group relative flex flex-col rounded-3xl overflow-hidden bg-surface-container-lowest shadow-sm active:scale-[0.98] transition-all duration-200 cursor-pointer">
+<div class="relative w-full aspect-[4/5] overflow-hidden bg-surface-container-high">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Couture artisanal perfume bottle with crystal multifaceted glass catching afternoon sunlight. Delicate dusty rose liquid perfume inside, standing on a polished pale stone with soft water ripples around." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDRrIS62UyOZoAQlVebCJRAhUiWxfujqLAAUshGsKWdRaFvP3jUIgv8pSmRZIdqnTP6VmF40pIfs-bVSe24UJhlEBgQL-3Wq-iMKy0H6-n5sbn4_7A4M47r2dQ9xdnlkg5loSBAbzdAPFW_D6o1B7_CR2dIF8M4HlpBJPVrhQ-JNW2TJus1EQQGy75ZVd5aYSuP7BMeOUcGOhFxopydZh_5FBDs_8B2Ls861hfh43WE7QKsszHaFkzDMQ"/>
+<div class="absolute inset-0 bg-gradient-to-t from-inverse-surface/80 via-inverse-surface/20 to-transparent"></div>
+<div class="absolute top-2.5 right-2.5 px-2 py-0.5 rounded-full bg-surface/90 backdrop-blur-md">
+<span class="font-label-sm text-label-sm text-primary font-bold">14 items</span>
+</div>
+<div class="absolute bottom-3 left-3 right-3 flex flex-col text-on-primary-container">
+<span class="font-headline-sm text-headline-sm text-inverse-on-surface font-semibold tracking-tight leading-tight">Fragrance</span>
+<span class="font-body-sm text-body-sm text-outline-variant line-clamp-1 mt-0.5">Artisanal Eau de Parfum &amp; Mists</span>
+</div>
+</div>
+<div class="flex items-center justify-between px-3.5 py-2.5 bg-surface-container-lowest">
+<span class="font-label-sm text-label-sm text-on-surface-variant font-medium">Sensory Notes</span>
+<span class="material-symbols-outlined text-[16px] text-primary group-hover:translate-x-0.5 transition-transform">arrow_forward</span>
+</div>
+</div>
+<!-- Body Care -->
+<div class="group relative flex flex-col rounded-3xl overflow-hidden bg-surface-container-lowest shadow-sm active:scale-[0.98] transition-all duration-200 cursor-pointer">
+<div class="relative w-full aspect-[4/5] overflow-hidden bg-surface-container-high">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Creamy ultra-rich whipped body butter texture macro photography with soft swirl patterns. Subtle pink clay and shea butter swirls with dewy moisture beads under warm romantic diffused bathroom spa lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAi9elf1h3mv1tv7wcF8ZrYllrqTyWivvnzNMrJamSfjcKlOYWPkCbrMIY6Bkv7vN3Al6C0YxxJjj9SflJrV4I4GsOBpFJZqKjiYvngyrGI2EiKk2A_Cuq8HqP0GRNtniskqLfvgDr9Q9oazZrt0xLqqwJQcSZRrsw9zzAGhV3eeeLAUXScumKZfl4JImeQ9H46bzrovGfPTbd7uGBFi7sglfE409RQL3MY7r5OcnF-a8nwiQFPmOKULQ"/>
+<div class="absolute inset-0 bg-gradient-to-t from-inverse-surface/80 via-inverse-surface/20 to-transparent"></div>
+<div class="absolute top-2.5 right-2.5 px-2 py-0.5 rounded-full bg-surface/90 backdrop-blur-md">
+<span class="font-label-sm text-label-sm text-primary font-bold">22 items</span>
+</div>
+<div class="absolute bottom-3 left-3 right-3 flex flex-col text-on-primary-container">
+<span class="font-headline-sm text-headline-sm text-inverse-on-surface font-semibold tracking-tight leading-tight">Body Care</span>
+<span class="font-body-sm text-body-sm text-outline-variant line-clamp-1 mt-0.5">Whipped Butters &amp; Silk Scrubs</span>
+</div>
+</div>
+<div class="flex items-center justify-between px-3.5 py-2.5 bg-surface-container-lowest">
+<span class="font-label-sm text-label-sm text-on-surface-variant font-medium">Full Restoration</span>
+<span class="material-symbols-outlined text-[16px] text-primary group-hover:translate-x-0.5 transition-transform">arrow_forward</span>
+</div>
+</div>
+<!-- Beauty Tools -->
+<div class="group relative flex flex-col rounded-3xl overflow-hidden bg-surface-container-lowest shadow-sm active:scale-[0.98] transition-all duration-200 cursor-pointer">
+<div class="relative w-full aspect-[4/5] overflow-hidden bg-surface-container-high">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Sculptural beauty facial tools crafted from pale rose quartz and golden brass accents. Gua sha sculpting stone and dual-ended facial roller resting on fresh silk fabric in soft blush pastel tones." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD3-xk46ioKHzD_JvW9ITM0HZvEeJZc87N89msnKoGwRF_4pcWbHUdh9FX4XUr_f_VUU4nUVTJPjFVjcLK7a-Y4xt3ZBx9hzRfWGwEYztFBnffJ9gJavA718wuJe5L7AKXFC8jBxxIxpJj6GJBKJ8RPgirLIgm53pglWE7trLUQ5yYk4avu3Cc4b3BOc-l5fl2Kl91drOJEPaRtIFR35_G9Gx7a2psrvgeBDP2NlRzYPvhR7GAQQatI4A"/>
+<div class="absolute inset-0 bg-gradient-to-t from-inverse-surface/80 via-inverse-surface/20 to-transparent"></div>
+<div class="absolute top-2.5 right-2.5 px-2 py-0.5 rounded-full bg-surface/90 backdrop-blur-md">
+<span class="font-label-sm text-label-sm text-primary font-bold">11 items</span>
+</div>
+<div class="absolute bottom-3 left-3 right-3 flex flex-col text-on-primary-container">
+<span class="font-headline-sm text-headline-sm text-inverse-on-surface font-semibold tracking-tight leading-tight">Beauty Tools</span>
+<span class="font-body-sm text-body-sm text-outline-variant line-clamp-1 mt-0.5">Rose Quartz Rollers &amp; Spatulas</span>
+</div>
+</div>
+<div class="flex items-center justify-between px-3.5 py-2.5 bg-surface-container-lowest">
+<span class="font-label-sm text-label-sm text-on-surface-variant font-medium">Tactile Sculpt</span>
+<span class="material-symbols-outlined text-[16px] text-primary group-hover:translate-x-0.5 transition-transform">arrow_forward</span>
+</div>
+</div>
+</div>
+<!-- Featured Spotlight Card -->
+<div class="relative w-full rounded-3xl overflow-hidden bg-secondary-container text-on-secondary-fixed shadow-md p-space-md mb-space-md">
+<div class="relative z-10 flex flex-col gap-2">
+<div class="flex items-center justify-between">
+<div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container-lowest/80 backdrop-blur-sm text-primary font-label-sm text-label-sm font-bold tracking-wide">
+<span class="material-symbols-outlined text-[14px]">spa</span>
+<span>SEASONAL SPOTLIGHT</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-secondary-fixed-variant">Edition 04</span>
+</div>
+<div class="mt-1">
+<h3 class="font-headline-md text-headline-md font-semibold text-on-secondary-fixed tracking-tight">Winter Radiance Guide</h3>
+<p class="font-body-md text-body-md text-on-secondary-fixed-variant mt-1 leading-relaxed">
+          Shield your skin barrier against crisp winter winds with peptide-rich lipid layers and soothing camellia nectar.
+        </p>
+</div>
+<div class="flex items-center justify-between mt-3 pt-3 bg-surface-container-lowest/40 rounded-2xl p-3">
+<div class="flex items-center gap-2.5">
+<div class="w-8 h-8 rounded-full bg-primary text-on-primary flex items-center justify-center font-bold text-label-sm">
+            6
+          </div>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md font-bold text-on-secondary-fixed">Curated Ceremony Steps</span>
+<span class="font-body-sm text-body-sm text-on-secondary-fixed-variant">15 min holistic ritual</span>
+</div>
+</div>
+<button class="px-4 py-2 rounded-full bg-primary text-on-primary font-label-md text-label-md shadow-sm active:scale-95 transition-transform">
+          Read Guide
+        </button>
+</div>
+</div>
+</div>
+<div class="flex items-center justify-center gap-1.5 py-space-sm text-outline">
+<span class="material-symbols-outlined text-[15px]">verified</span>
+<span class="font-label-sm text-label-sm tracking-wider uppercase font-medium">Bespoke Clean Standard Certified</span>
+</div>
+</div>
+<script>
+  (function() {
+    const chips = document.querySelectorAll('.category-chip');
+    chips.forEach(chip => {
+      chip.addEventListener('click', () => {
+        chips.forEach(c => {
+          c.classList.remove('bg-primary', 'text-on-primary');
+          c.classList.add('bg-surface-container', 'text-on-surface-variant');
+        });
+        chip.classList.add('bg-primary', 'text-on-primary');
+        chip.classList.remove('bg-surface-container', 'text-on-surface-variant');
+      });
+    });
+
+    const searchInput = document.getElementById('collection-search');
+    if (searchInput) {
+      searchInput.addEventListener('input', (e) => {
+        const query = e.target.value.toLowerCase().trim();
+        const cards = document.querySelectorAll('.grid > div');
+        cards.forEach(card => {
+          const text = card.textContent.toLowerCase();
+          card.style.display = text.includes(query) ? 'flex' : 'none';
+        });
+      });
+    }
+  })();
+</script></main><nav class="fixed bottom-0 inset-x-0 z-50 bg-surface-container-lowest/95 backdrop-blur-xl shadow-[0_10px_30px_-4px_rgba(112,45,70,0.08)] pb-[env(safe-area-inset-bottom,0px)]" data-active-classes="text-primary font-semibold [&amp;_.active-dot]:opacity-100"><div class="flex justify-around items-center h-20 px-space-xs"><a class="flex flex-col items-center justify-center min-w-[56px] min-h-[48px] py-1 text-on-secondary-container transition-all group" data-path="home" href="#"><span class="material-symbols-outlined text-[24px] mb-0.5">home</span><span class="font-label-sm text-label-sm">Home</span><span class="active-dot w-1 h-1 bg-primary rounded-full mt-1 opacity-0 transition-opacity"></span></a><a class="flex flex-col items-center justify-center min-w-[56px] min-h-[48px] py-1 text-on-secondary-container transition-all group" data-path="explore" href="#"><span class="material-symbols-outlined text-[24px] mb-0.5">grid_view</span><span class="font-label-sm text-label-sm">Explore</span><span class="active-dot w-1 h-1 bg-primary rounded-full mt-1 opacity-0 transition-opacity"></span></a><a class="flex flex-col items-center justify-center min-w-[56px] min-h-[48px] py-1 text-on-secondary-container transition-all group" data-path="wishlist" href="#"><span class="material-symbols-outlined text-[24px] mb-0.5">favorite</span><span class="font-label-sm text-label-sm">Wishlist</span><span class="active-dot w-1 h-1 bg-primary rounded-full mt-1 opacity-0 transition-opacity"></span></a><a class="relative flex flex-col items-center justify-center min-w-[56px] min-h-[48px] py-1 text-on-secondary-container transition-all group" data-path="bag" href="#"><div class="relative flex items-center justify-center"><span class="material-symbols-outlined text-[24px] mb-0.5">shopping_bag</span><span class="absolute -top-1 -right-2 bg-primary text-on-primary font-label-sm text-[10px] min-w-[16px] h-4 px-1 rounded-full flex items-center justify-center leading-none">2</span></div><span class="font-label-sm text-label-sm">Bag</span><span class="active-dot w-1 h-1 bg-primary rounded-full mt-1 opacity-0 transition-opacity"></span></a><a class="flex flex-col items-center justify-center min-w-[56px] min-h-[48px] py-1 text-on-secondary-container transition-all group" data-path="profile" href="#"><span class="material-symbols-outlined text-[24px] mb-0.5">person</span><span class="font-label-sm text-label-sm">Profile</span><span class="active-dot w-1 h-1 bg-primary rounded-full mt-1 opacity-0 transition-opacity"></span></a></div></nav></body></html>

@@ -1,0 +1,175 @@
+<!DOCTYPE html><html class="light" lang="en"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"><meta content="mobile_tab" name="shell-type"><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { colors: { "surface-dim": "#e2d7df", "outline-variant": "#ddbfc4", "primary-fixed-dim": "#ffb1c2", "tertiary-container": "#aa5c77", "on-tertiary-fixed-variant": "#733049", "secondary-fixed-dim": "#dac0c9", "on-secondary-container": "#735f67", "outline": "#8a7175", "background": "#fff7fa", "on-secondary-fixed-variant": "#544249", "inverse-surface": "#352e35", "error-container": "#ffdad6", "on-tertiary-container": "#fffbff", "inverse-on-surface": "#f9edf6", "inverse-primary": "#ffb1c2", "on-secondary-fixed": "#26171e", "primary-fixed": "#ffd9e0", "on-secondary": "#ffffff", "on-primary-container": "#fffbff", "surface-container-high": "#f1e5ed", "on-error": "#ffffff", "surface-container-lowest": "#ffffff", "secondary": "#6d5961", "tertiary-fixed": "#ffd9e2", "on-primary": "#ffffff", "surface-variant": "#ebdfe7", "on-tertiary-fixed": "#3c031d", "tertiary-fixed-dim": "#ffb1c8", "on-surface": "#1f1a20", "on-background": "#1f1a20", "on-error-container": "#93000a", "surface-container": "#f6ebf3", "error": "#ba1a1a", "on-primary-fixed-variant": "#8b1141", "primary": "#a82b55", "secondary-fixed": "#f7dce5", "on-tertiary": "#ffffff", "surface": "#fff7fa", "secondary-container": "#f7dce5", "surface-container-highest": "#ebdfe7", "surface-tint": "#ab2d58", "on-surface-variant": "#574145", "primary-container": "#c8446e", "surface-bright": "#fff7fa", "surface-container-low": "#fcf0f9", "on-primary-fixed": "#3f0018", "tertiary": "#8d445e" }, borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, spacing: { "space-lg": "1.5rem", "space-md": "1rem", "space-sm": "0.5rem", "gutter": "1rem", "space-xs": "0.25rem", "space-xl": "2.25rem", "margin": "1.25rem" }, fontFamily: { "display-lg": ["Playfair Display"], "body-md": ["Plus Jakarta Sans"], "label-sm": ["Plus Jakarta Sans"], "body-lg": ["Plus Jakarta Sans"], "headline-sm": ["Playfair Display"], "price-lg": ["Plus Jakarta Sans"], "label-lg": ["Plus Jakarta Sans"], "title-lg": ["Plus Jakarta Sans"], "label-md": ["Plus Jakarta Sans"], "headline-md": ["Playfair Display"], "price-md": ["Plus Jakarta Sans"], "body-sm": ["Plus Jakarta Sans"], "headline-lg": ["Playfair Display"], "title-md": ["Plus Jakarta Sans"] }, fontSize: { "display-lg": ["40px", { lineHeight: "48px", letterSpacing: "-0.02em", fontWeight: "600" }], "body-md": ["14px", { lineHeight: "20px", letterSpacing: "0em", fontWeight: "400" }], "label-sm": ["10px", { lineHeight: "14px", letterSpacing: "0.06em", fontWeight: "700" }], "body-lg": ["16px", { lineHeight: "24px", letterSpacing: "0.01em", fontWeight: "400" }], "headline-sm": ["20px", { lineHeight: "26px", letterSpacing: "0em", fontWeight: "600" }], "price-lg": ["20px", { lineHeight: "24px", letterSpacing: "-0.02em", fontWeight: "700" }], "label-lg": ["14px", { lineHeight: "18px", letterSpacing: "0.02em", fontWeight: "600" }], "title-lg": ["18px", { lineHeight: "24px", letterSpacing: "-0.01em", fontWeight: "700" }], "label-md": ["12px", { lineHeight: "16px", letterSpacing: "0.04em", fontWeight: "600" }], "headline-md": ["24px", { lineHeight: "32px", letterSpacing: "0em", fontWeight: "500" }], "price-md": ["15px", { lineHeight: "20px", letterSpacing: "-0.01em", fontWeight: "700" }], "body-sm": ["12px", { lineHeight: "18px", letterSpacing: "0.01em", fontWeight: "400" }], "headline-lg": ["30px", { lineHeight: "38px", letterSpacing: "-0.01em", fontWeight: "600" }], "title-md": ["16px", { lineHeight: "22px", letterSpacing: "0em", fontWeight: "600" }] } } } }</script><style>@layer base{html,body{width:100vw;margin:0;padding:0;background-color:#fff7fa;}body{overscroll-behavior:none;-webkit-tap-highlight-color:transparent;}.pb-safe{padding-bottom:calc(env(safe-area-inset-bottom,0px) + 5rem);}.pt-safe{padding-top:calc(env(safe-area-inset-top,0px) + 5.5rem);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface font-body-md text-on-surface flex flex-col min-h-screen"><header class="fixed top-0 inset-x-0 z-50 bg-surface/85 backdrop-blur-xl shadow-[0_4px_16px_-2px_rgba(112,45,70,0.05)]"><div class="w-full flex items-center justify-between px-margin pt-1.5 text-on-surface-variant font-label-sm text-label-sm"><span class="font-label-sm font-semibold tracking-tight text-on-surface">9:41</span><div class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px]">signal_cellular_4_bar</span><span class="material-symbols-outlined text-[15px]">wifi</span><span class="material-symbols-outlined text-[17px]">battery_full</span></div></div><div class="h-16 px-margin flex items-center justify-between"><div class="flex items-center gap-space-sm"><img alt="GLOW UP Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCWWn8LC_r-Klyyb8CMAQ7pa9NR9m7xyyp6QCBASe9kRFNIN9DKVEe25zGIxLRfYyybbbD9EoZGsv5tF8SMIefb92DoL4itNdWAay4qRS1Tkje8Zw6QlqUQ0xmBr-PQTIMlVG8gETwbXcb95-ggWWOBY4Wj0Yj7gp0tvtU6xERPWIjIrCWXhff_WEw4szvDsB2RpEu7OHPHd-yHW20CrykMzzxlRdwcmtcV35X5dbT6e8Tig84NxGE3Lg"><div class="flex flex-col"><span class="font-display-lg text-title-md leading-none text-primary font-bold tracking-tight">GLOW UP</span><span class="font-headline-sm text-headline-sm leading-tight text-on-surface truncate max-w-[140px]">Bag</span></div></div><div class="flex items-center gap-space-xs"><button aria-label="Notifications" class="w-11 h-11 flex items-center justify-center text-on-surface-variant rounded-full active:bg-secondary-fixed/50 transition-colors"><span class="material-symbols-outlined text-[24px]">notifications</span></button><div class="flex items-center justify-center p-0.5 rounded-full ring-1 ring-outline-variant/40"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBKUzX9mTN3xmR3TtGiYusLV1irimKDqgmxP-Zr0yR_mDC_FnYwFA3O7DKfm9qbcb1u0JtMGVbNKpR59qRcQtrHKhnymXpMM45x2DYj3s-0_zR2GYkMyfsJyZPwTtpnTFb8UWDolfU24oO9wRvv22drJVLWy5D-hZoNgbpvX_sOzQ-19L0vgrPKufiPwoly2yIfAaEHJAxgNsLr0a0pPC5_9fX1-8EN6tD-bQrOa8Rlav0LynCUyBtjEQ"></div></div></div></header><main class="flex-1 flex flex-col relative w-full pt-safe pb-safe bg-surface"><div class="flex flex-col w-full px-margin pb-12 space-y-space-md">
+<!-- Top Bar / Cart Summary Action Header -->
+<div class="flex items-center justify-between pt-space-xs">
+<div class="flex items-baseline gap-space-xs">
+<h2 class="font-headline-sm text-headline-sm text-on-surface">Your Bag</h2>
+<span class="font-label-md text-label-md text-secondary" id="bag-count-badge">(2 items)</span>
+</div>
+<button class="font-label-md text-label-md text-primary active:opacity-70 transition-opacity flex items-center gap-1 py-1" id="clear-bag-btn">
+<span class="material-symbols-outlined text-[16px]">delete_sweep</span>
+      Clear Bag
+    </button>
+</div>
+<!-- Delivery Progress Micro-Perk Banner -->
+<div class="w-full bg-secondary-container/60 rounded-xl p-space-sm flex items-center justify-between shadow-sm">
+<div class="flex items-center gap-space-sm">
+<div class="w-8 h-8 rounded-full bg-surface flex items-center justify-center text-primary shadow-sm">
+<span class="material-symbols-outlined text-[18px]">local_shipping</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface font-semibold">Complimentary Standard Delivery</span>
+<span class="font-body-sm text-body-sm text-secondary">Student showcase order perk unlocked</span>
+</div>
+</div>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-primary font-bold bg-surface/80 px-2 py-0.5 rounded-full">Free</span>
+</div>
+<!-- Active Cart Items List -->
+<div class="space-y-space-sm" id="cart-items-container">
+<!-- Item 1: Luminous Dew Drop Serum -->
+<div class="cart-item bg-surface-container-lowest rounded-xl p-space-sm shadow-sm flex gap-space-sm items-center relative overflow-hidden transition-all duration-300" data-price="4850" id="cart-item-1"><div class="w-20 h-24 rounded-xl overflow-hidden bg-surface-container flex-shrink-0 relative shadow-inner ring-1 ring-outline-variant/30"><img class="w-full h-full object-cover" data-alt="High-end skincare glass dropper bottle holding pearlescent pink hydrating facial serum on warm ivory surface" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBu_EKKD9UcTtSaD8WGX9Wn6B-RnQ_IcFBpEuXj52rhiuK-NrKtVtfMIblTelW_5Pa_g2Ws0UgQp4OQJhDQjijJobV8iw7H0iminrFI7IABPPv9_MSDQ4304rmiZQii4Z6eQ0vTIuDMDajZGOia6GQ6ZwyCvM4E12QZ1CE9QYLC5MXTzp5K_O9vUqwicpDxLwnvOOubVQvmIM7mYo70WhqPJNXOtd161206JQGHqk9YJvWMo2wemstjzA"><div class="absolute inset-0 bg-primary/5 pointer-events-none"></div></div><div class="flex-1 flex flex-col min-w-0 pr-space-xs"><div class="flex items-start justify-between gap-1"><div class="flex flex-col min-w-0"><h3 class="font-title-md text-[15px] font-semibold text-on-surface truncate tracking-tight">Luminous Dew Drop Serum</h3><div class="flex items-center gap-1.5 mt-0.5"><span class="font-label-sm text-[10px] text-tertiary bg-secondary-container/60 px-2 py-0.5 rounded-full uppercase tracking-wider font-semibold">Standard</span><span class="font-body-sm text-body-sm text-secondary truncate">30ml dropper</span></div></div><button aria-label="Remove Luminous Dew Drop Serum" class="delete-item-btn text-outline hover:text-error active:text-error transition-colors p-1.5 -mr-1.5 rounded-full active:bg-secondary-container/50" data-target="cart-item-1"><span class="material-symbols-outlined text-[18px]">delete_outline</span></button></div><div class="flex items-center justify-between mt-space-sm pt-0.5"><div class="flex flex-col"><span class="font-price-md text-[15px] text-primary font-bold tracking-tight">PKR 4,850</span></div><div class="flex items-center bg-surface-container rounded-full p-0.5 ring-1 ring-outline-variant/30"><button aria-label="Decrease quantity" class="qty-btn decrement w-7 h-7 flex items-center justify-center rounded-full text-on-surface active:bg-surface-container-high transition-colors" data-target="cart-item-1"><span class="material-symbols-outlined text-[14px]">remove</span></button><span class="qty-value font-label-md text-label-md text-on-surface w-6 text-center font-semibold">1</span><button aria-label="Increase quantity" class="qty-btn increment w-7 h-7 flex items-center justify-center rounded-full text-on-surface active:bg-surface-container-high transition-colors" data-target="cart-item-1"><span class="material-symbols-outlined text-[14px]">add</span></button></div></div></div></div>
+<!-- Item 2: Velvet Petal Lip Oil -->
+<div class="cart-item bg-surface-container-lowest rounded-xl p-space-sm shadow-sm flex gap-space-sm items-center relative overflow-hidden transition-all duration-300" data-price="2400" id="cart-item-2"><div class="w-20 h-24 rounded-xl overflow-hidden bg-surface-container flex-shrink-0 relative shadow-inner ring-1 ring-outline-variant/30"><img class="w-full h-full object-cover" data-alt="Chic transparent tube of rose petal colored lip oil with golden applicator cap lying elegantly on pale pink silk" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDWuTG6nVsa78k0yjMNYTpXqKr2M0Rrjvqy9mMvmZLdKpHC-wueZw8az3j5Ko9pmvUqO37M-SkvQTICWSbw8x4YFQGkh5bOKDtoDxCxTC3R71UcftmZRS6lFVdxihYKj6wycHtG5nb8cCmbEnFleozLdZzxMCYVYRIFY96gxEoDeE7T_b5UPFzptN16Q0V2sJ4AvGanCblw7eglWORGn3FyWI1CBxPB2fJ5ngF_9zUdFMa1EKcYYI7Wug"><div class="absolute inset-0 bg-primary/5 pointer-events-none"></div></div><div class="flex-1 flex flex-col min-w-0 pr-space-xs"><div class="flex items-start justify-between gap-1"><div class="flex flex-col min-w-0"><h3 class="font-title-md text-[15px] font-semibold text-on-surface truncate tracking-tight">Velvet Petal Lip Oil</h3><div class="flex items-center gap-1.5 mt-0.5"><span class="font-label-sm text-[10px] text-tertiary bg-secondary-container/60 px-2 py-0.5 rounded-full uppercase tracking-wider font-semibold">Rose Petal</span><span class="font-body-sm text-body-sm text-secondary truncate">Shade 02</span></div></div><button aria-label="Remove Velvet Petal Lip Oil" class="delete-item-btn text-outline hover:text-error active:text-error transition-colors p-1.5 -mr-1.5 rounded-full active:bg-secondary-container/50" data-target="cart-item-2"><span class="material-symbols-outlined text-[18px]">delete_outline</span></button></div><div class="flex items-center justify-between mt-space-sm pt-0.5"><div class="flex flex-col"><span class="font-price-md text-[15px] text-primary font-bold tracking-tight">PKR 2,400</span></div><div class="flex items-center bg-surface-container rounded-full p-0.5 ring-1 ring-outline-variant/30"><button aria-label="Decrease quantity" class="qty-btn decrement w-7 h-7 flex items-center justify-center rounded-full text-on-surface active:bg-surface-container-high transition-colors" data-target="cart-item-2"><span class="material-symbols-outlined text-[14px]">remove</span></button><span class="qty-value font-label-md text-label-md text-on-surface w-6 text-center font-semibold">1</span><button aria-label="Increase quantity" class="qty-btn increment w-7 h-7 flex items-center justify-center rounded-full text-on-surface active:bg-surface-container-high transition-colors" data-target="cart-item-2"><span class="material-symbols-outlined text-[14px]">add</span></button></div></div></div></div>
+</div>
+<!-- Empty State Container (Hidden initially) -->
+<div class="hidden bg-surface-container-lowest rounded-xl p-space-lg text-center shadow-sm flex flex-col items-center justify-center py-10 space-y-space-sm" id="empty-state-card">
+<div class="w-16 h-16 rounded-full bg-secondary-container flex items-center justify-center text-primary mb-1">
+<span class="material-symbols-outlined text-[32px]">shopping_bag</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Your Bag is Empty</h3>
+<p class="font-body-sm text-body-sm text-secondary max-w-xs">Explore curated skincare rituals and indulge in your personal beauty restorative session.</p>
+<button class="mt-space-sm px-6 py-2.5 rounded-full bg-secondary-container text-on-secondary-fixed-variant font-label-md text-label-md active:bg-secondary-fixed-dim transition-colors" id="restore-sample-btn">
+      Reload Sample Cart
+    </button>
+</div>
+<!-- Promo / Ritual Code Input -->
+<div class="bg-surface-container-lowest rounded-xl p-space-sm shadow-sm flex flex-col space-y-space-xs">
+<label class="font-label-md text-label-md text-secondary px-1" for="promo-input">Promo &amp; Ritual Invitation</label>
+<div class="flex items-center gap-space-xs bg-surface-container rounded-full px-space-sm py-1"><div class="flex items-center justify-between px-1"><div class="flex items-center gap-1.5"><span class="material-symbols-outlined text-primary text-[17px]">redeem</span><span class="font-label-md text-label-md text-on-surface font-semibold">Promo &amp; Ritual Invitation</span></div><span class="font-label-sm text-[10px] text-primary uppercase font-bold tracking-wider">Unlocked</span></div><div class="flex items-center gap-space-xs bg-surface-container/70 rounded-xl px-space-sm py-1.5 ring-1 ring-outline-variant/40"><span class="material-symbols-outlined text-primary text-[18px]">sell</span><input class="flex-1 bg-transparent font-label-md text-label-md text-on-surface focus:outline-none uppercase tracking-wider font-bold" id="promo-input" placeholder="Enter code" type="text" value="GLOWGUEST"><span class="font-label-sm text-[10px] bg-primary text-on-primary px-2.5 py-1 rounded-full font-bold tracking-wider">APPLIED</span></div><div class="flex items-center justify-between px-1 pt-0.5"><span class="font-body-sm text-[11px] text-tertiary flex items-center gap-1"><span class="material-symbols-outlined text-[13px]">check_circle</span>Guest invitation active • Free luxury samples included</span></div></div>
+<span class="font-body-sm text-[11px] text-tertiary px-1 flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">arrow_back_ios_new</span>
+      Guest demonstration code active (Special preview)
+    </span>
+</div>
+<!-- Order Summary Card -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm space-y-space-sm"><div class="flex items-center justify-between pb-1 border-b border-surface-container-highest/60"><div class="flex items-center gap-2"><span class="material-symbols-outlined text-primary text-[18px]">receipt_long</span><h3 class="font-headline-sm text-title-md text-on-surface font-semibold">Ceremony Summary</h3></div><span class="font-label-sm text-[10px] text-tertiary bg-secondary-container/60 font-semibold px-2 py-0.5 rounded-full">Student Demo</span></div><div class="space-y-space-xs pt-space-xs font-body-md text-body-md text-on-surface-variant"><div class="flex justify-between items-center py-0.5"><span class="font-body-sm text-body-sm text-secondary" id="subtotal-label">Subtotal (2 items)</span><span class="font-price-md text-[14px] font-semibold text-on-surface" id="summary-subtotal">PKR 7,250</span></div><div class="flex justify-between items-center py-0.5"><div class="flex items-center gap-1.5"><span class="font-body-sm text-body-sm text-secondary">Standard Delivery</span><span class="material-symbols-outlined text-primary text-[14px]">verified</span></div><span class="font-label-md text-label-md text-primary font-bold">Free</span></div><div class="flex justify-between items-center py-0.5"><span class="font-body-sm text-body-sm text-secondary">Estimated Tax &amp; Surcharge</span><span class="font-price-md text-[14px] text-secondary font-medium">PKR 0</span></div></div><div class="h-px w-full bg-surface-container-highest my-space-xs"></div><div class="flex justify-between items-end pt-space-xs"><div class="flex flex-col"><span class="font-title-md text-title-md text-on-surface font-bold tracking-tight">Total Payable</span><span class="font-body-sm text-[11px] text-secondary">Includes all applicable ritual duties</span></div><div class="text-right"><span class="font-price-lg text-price-lg text-primary font-bold tracking-tight" id="summary-total">PKR 7,250</span></div></div></div>
+<!-- Primary Checkout CTA Button -->
+<div class="pt-space-xs"><button class="w-full h-[52px] bg-primary text-on-primary rounded-full font-label-lg text-label-lg flex items-center justify-center gap-space-sm shadow-md active:opacity-90 active:scale-[0.99] transition-all hover:shadow-lg" id="checkout-cta"><span class="font-bold tracking-wide">Proceed to Checkout</span><span class="material-symbols-outlined text-[20px]">arrow_forward</span></button></div>
+<!-- Local SQLite Cache & Privacy Persistence Micro-Banner -->
+<div class="flex items-center justify-center gap-1.5 py-1 text-center text-secondary">
+<span class="material-symbols-outlined text-[16px] text-tertiary">cloud_done</span>
+<span class="font-body-sm text-[11px]">Bag is backed up to local SQLite cache</span>
+</div>
+</div>
+<script>
+  (function() {
+    // Setup interactive state management
+    const cartContainer = document.getElementById('cart-items-container');
+    const emptyState = document.getElementById('empty-state-card');
+    const bagCountBadge = document.getElementById('bag-count-badge');
+    const subtotalLabel = document.getElementById('subtotal-label');
+    const summarySubtotal = document.getElementById('summary-subtotal');
+    const summaryTotal = document.getElementById('summary-total');
+    const clearBagBtn = document.getElementById('clear-bag-btn');
+    const restoreSampleBtn = document.getElementById('restore-sample-btn');
+    const checkoutCta = document.getElementById('checkout-cta');
+
+    function updateCartTotals() {
+      const items = cartContainer.querySelectorAll('.cart-item');
+      let totalAmount = 0;
+      let totalItemsCount = 0;
+
+      items.forEach(item => {
+        const price = parseInt(item.getAttribute('data-price') || '0', 10);
+        const qty = parseInt(item.querySelector('.qty-value').textContent || '1', 10);
+        totalAmount += (price * qty);
+        totalItemsCount += qty;
+      });
+
+      bagCountBadge.textContent = '(' + totalItemsCount + ' item' + (totalItemsCount === 1 ? '' : 's') + ')';
+      subtotalLabel.textContent = 'Subtotal (' + totalItemsCount + ' item' + (totalItemsCount === 1 ? '' : 's') + ')';
+      
+      const formatted = 'PKR ' + totalAmount.toLocaleString();
+      summarySubtotal.textContent = formatted;
+      summaryTotal.textContent = formatted;
+
+      if (totalItemsCount === 0) {
+        cartContainer.classList.add('hidden');
+        emptyState.classList.remove('hidden');
+        checkoutCta.classList.add('opacity-50', 'pointer-events-none');
+      } else {
+        cartContainer.classList.remove('hidden');
+        emptyState.classList.add('hidden');
+        checkoutCta.classList.remove('opacity-50', 'pointer-events-none');
+      }
+    }
+
+    // Attach quantity stepper events
+    document.querySelectorAll('.qty-btn').forEach(btn => {
+      btn.addEventListener('click', function(e) {
+        e.stopPropagation();
+        const isIncrement = this.classList.contains('increment');
+        const targetId = this.getAttribute('data-target');
+        const card = document.getElementById(targetId);
+        if (!card) return;
+        const valSpan = card.querySelector('.qty-value');
+        let val = parseInt(valSpan.textContent || '1', 10);
+        
+        if (isIncrement) {
+          if (val < 9) val++;
+        } else {
+          if (val > 1) {
+            val--;
+          } else {
+            // Remove with smooth transition
+            card.style.opacity = '0';
+            card.style.transform = 'translateY(-8px)';
+            setTimeout(() => {
+              card.remove();
+              updateCartTotals();
+            }, 250);
+            return;
+          }
+        }
+        valSpan.textContent = val;
+        updateCartTotals();
+      });
+    });
+
+    // Delete single item
+    document.querySelectorAll('.delete-item-btn').forEach(btn => {
+      btn.addEventListener('click', function(e) {
+        e.stopPropagation();
+        const targetId = this.getAttribute('data-target');
+        const card = document.getElementById(targetId);
+        if (card) {
+          card.style.opacity = '0';
+          card.style.transform = 'translateY(-8px)';
+          setTimeout(() => {
+            card.remove();
+            updateCartTotals();
+          }, 250);
+        }
+      });
+    });
+
+    // Clear bag completely
+    clearBagBtn.addEventListener('click', function() {
+      const items = cartContainer.querySelectorAll('.cart-item');
+      items.forEach(i => i.remove());
+      updateCartTotals();
+    });
+
+    // Restore sample cart for demonstration
+    restoreSampleBtn.addEventListener('click', function() {
+      window.location.reload();
+    });
+  })();
+</script></main><nav class="fixed bottom-0 inset-x-0 z-50 bg-surface-container-lowest/95 backdrop-blur-xl shadow-[0_10px_30px_-4px_rgba(112,45,70,0.08)] pb-[env(safe-area-inset-bottom,0px)]" data-active-classes="text-primary font-semibold [&amp;_.active-dot]:opacity-100"><div class="flex justify-around items-center h-20 px-space-xs"><a class="flex flex-col items-center justify-center min-w-[56px] min-h-[48px] py-1 text-on-secondary-container transition-all group" data-path="home" href="#"><span class="material-symbols-outlined text-[24px] mb-0.5">home</span><span class="font-label-sm text-label-sm">Home</span><span class="active-dot w-1 h-1 bg-primary rounded-full mt-1 opacity-0 transition-opacity"></span></a><a class="flex flex-col items-center justify-center min-w-[56px] min-h-[48px] py-1 text-on-secondary-container transition-all group" data-path="explore" href="#"><span class="material-symbols-outlined text-[24px] mb-0.5">grid_view</span><span class="font-label-sm text-label-sm">Explore</span><span class="active-dot w-1 h-1 bg-primary rounded-full mt-1 opacity-0 transition-opacity"></span></a><a class="flex flex-col items-center justify-center min-w-[56px] min-h-[48px] py-1 text-on-secondary-container transition-all group" data-path="wishlist" href="#"><span class="material-symbols-outlined text-[24px] mb-0.5">favorite</span><span class="font-label-sm text-label-sm">Wishlist</span><span class="active-dot w-1 h-1 bg-primary rounded-full mt-1 opacity-0 transition-opacity"></span></a><a aria-current="page" class="relative flex flex-col items-center justify-center min-w-[56px] min-h-[48px] py-1 transition-all group text-primary font-semibold [&amp;_.active-dot]:opacity-100" data-path="bag" href="#"><div class="relative flex items-center justify-center"><span class="material-symbols-outlined text-[24px] mb-0.5">shopping_bag</span><span class="absolute -top-1 -right-2 bg-primary text-on-primary font-label-sm text-[10px] min-w-[16px] h-4 px-1 rounded-full flex items-center justify-center leading-none">2</span></div><span class="font-label-sm text-label-sm">Bag</span><span class="active-dot w-1 h-1 bg-primary rounded-full mt-1 opacity-0 transition-opacity"></span></a><a class="flex flex-col items-center justify-center min-w-[56px] min-h-[48px] py-1 text-on-secondary-container transition-all group" data-path="profile" href="#"><span class="material-symbols-outlined text-[24px] mb-0.5">person</span><span class="font-label-sm text-label-sm">Profile</span><span class="active-dot w-1 h-1 bg-primary rounded-full mt-1 opacity-0 transition-opacity"></span></a></div></nav>
+
+</body></html>

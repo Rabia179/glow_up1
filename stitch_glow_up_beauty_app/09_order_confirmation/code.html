@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_stack" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { colors: { "surface-dim": "#e2d7df", "outline-variant": "#ddbfc4", "primary-fixed-dim": "#ffb1c2", "tertiary-container": "#aa5c77", "on-tertiary-fixed-variant": "#733049", "secondary-fixed-dim": "#dac0c9", "on-secondary-container": "#735f67", "outline": "#8a7175", "background": "#fff7fa", "on-secondary-fixed-variant": "#544249", "inverse-surface": "#352e35", "error-container": "#ffdad6", "on-tertiary-container": "#fffbff", "inverse-on-surface": "#f9edf6", "inverse-primary": "#ffb1c2", "on-secondary-fixed": "#26171e", "primary-fixed": "#ffd9e0", "on-secondary": "#ffffff", "on-primary-container": "#fffbff", "surface-container-high": "#f1e5ed", "on-error": "#ffffff", "surface-container-lowest": "#ffffff", "secondary": "#6d5961", "tertiary-fixed": "#ffd9e2", "on-primary": "#ffffff", "surface-variant": "#ebdfe7", "on-tertiary-fixed": "#3c031d", "tertiary-fixed-dim": "#ffb1c8", "on-surface": "#1f1a20", "on-background": "#1f1a20", "on-error-container": "#93000a", "surface-container": "#f6ebf3", "error": "#ba1a1a", "on-primary-fixed-variant": "#8b1141", "primary": "#a82b55", "secondary-fixed": "#f7dce5", "on-tertiary": "#ffffff", "surface": "#fff7fa", "secondary-container": "#f7dce5", "surface-container-highest": "#ebdfe7", "surface-tint": "#ab2d58", "on-surface-variant": "#574145", "primary-container": "#c8446e", "surface-bright": "#fff7fa", "surface-container-low": "#fcf0f9", "on-primary-fixed": "#3f0018", "tertiary": "#8d445e" }, borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, spacing: { "space-lg": "1.5rem", "space-md": "1rem", "space-sm": "0.5rem", "gutter": "1rem", "space-xs": "0.25rem", "space-xl": "2.25rem", "margin": "1.25rem" }, fontFamily: { "display-lg": ["Playfair Display"], "body-md": ["Plus Jakarta Sans"], "label-sm": ["Plus Jakarta Sans"], "body-lg": ["Plus Jakarta Sans"], "headline-sm": ["Playfair Display"], "price-lg": ["Plus Jakarta Sans"], "label-lg": ["Plus Jakarta Sans"], "title-lg": ["Plus Jakarta Sans"], "label-md": ["Plus Jakarta Sans"], "headline-md": ["Playfair Display"], "price-md": ["Plus Jakarta Sans"], "body-sm": ["Plus Jakarta Sans"], "headline-lg": ["Playfair Display"], "title-md": ["Plus Jakarta Sans"] }, fontSize: { "display-lg": ["40px", { lineHeight: "48px", letterSpacing: "-0.02em", fontWeight: "600" }], "body-md": ["14px", { lineHeight: "20px", letterSpacing: "0em", fontWeight: "400" }], "label-sm": ["10px", { lineHeight: "14px", letterSpacing: "0.06em", fontWeight: "700" }], "body-lg": ["16px", { lineHeight: "24px", letterSpacing: "0.01em", fontWeight: "400" }], "headline-sm": ["20px", { lineHeight: "26px", letterSpacing: "0em", fontWeight: "600" }], "price-lg": ["20px", { lineHeight: "24px", letterSpacing: "-0.02em", fontWeight: "700" }], "label-lg": ["14px", { lineHeight: "18px", letterSpacing: "0.02em", fontWeight: "600" }], "title-lg": ["18px", { lineHeight: "24px", letterSpacing: "-0.01em", fontWeight: "700" }], "label-md": ["12px", { lineHeight: "16px", letterSpacing: "0.04em", fontWeight: "600" }], "headline-md": ["24px", { lineHeight: "32px", letterSpacing: "0em", fontWeight: "500" }], "price-md": ["15px", { lineHeight: "20px", letterSpacing: "-0.01em", fontWeight: "700" }], "body-sm": ["12px", { lineHeight: "18px", letterSpacing: "0.01em", fontWeight: "400" }], "headline-lg": ["30px", { lineHeight: "38px", letterSpacing: "-0.01em", fontWeight: "600" }], "title-md": ["16px", { lineHeight: "22px", letterSpacing: "0em", fontWeight: "600" }] } } } }</script><style>@layer base{html,body{width:100vw;margin:0;padding:0;background-color:#fff7fa;}body{overscroll-behavior:none;-webkit-tap-highlight-color:transparent;}.pb-safe{padding-bottom:calc(env(safe-area-inset-bottom,0px) + 1.5rem);}.pt-safe{padding-top:calc(env(safe-area-inset-top,0px) + 5.5rem);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface font-body-md text-on-surface flex flex-col min-h-screen"><header class="fixed top-0 inset-x-0 z-50 bg-surface/85 backdrop-blur-xl shadow-[0_4px_16px_-2px_rgba(112,45,70,0.05)]"><div class="w-full flex items-center justify-between px-margin pt-1.5 text-on-surface-variant font-label-sm text-label-sm"><span class="font-label-sm font-semibold tracking-tight text-on-surface">9:41</span><div class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px]">signal_cellular_4_bar</span><span class="material-symbols-outlined text-[15px]">wifi</span><span class="material-symbols-outlined text-[17px]">battery_full</span></div></div><div class="h-16 px-margin flex items-center justify-between"><div class="flex items-center gap-space-sm"><button aria-label="Go back" class="w-11 h-11 flex items-center justify-center text-on-surface rounded-full active:bg-secondary-fixed/50 transition-colors" onclick="history.back()"><span class="material-symbols-outlined text-[24px]">arrow_back</span></button><img alt="GLOW UP Logo" class="h-7 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCWWn8LC_r-Klyyb8CMAQ7pa9NR9m7xyyp6QCBASe9kRFNIN9DKVEe25zGIxLRfYyybbbD9EoZGsv5tF8SMIefb92DoL4itNdWAay4qRS1Tkje8Zw6QlqUQ0xmBr-PQTIMlVG8gETwbXcb95-ggWWOBY4Wj0Yj7gp0tvtU6xERPWIjIrCWXhff_WEw4szvDsB2RpEu7OHPHd-yHW20CrykMzzxlRdwcmtcV35X5dbT6e8Tig84NxGE3Lg"/><h1 class="font-headline-sm text-headline-sm text-on-surface font-semibold tracking-tight truncate max-w-[170px]">Confirmation</h1></div><div class="flex items-center gap-space-xs"><button aria-label="Notifications" class="w-11 h-11 flex items-center justify-center text-on-surface-variant rounded-full active:bg-secondary-fixed/50 transition-colors"><span class="material-symbols-outlined text-[24px]">notifications</span></button><div class="flex items-center justify-center p-0.5 rounded-full ring-1 ring-outline-variant/40"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBKUzX9mTN3xmR3TtGiYusLV1irimKDqgmxP-Zr0yR_mDC_FnYwFA3O7DKfm9qbcb1u0JtMGVbNKpR59qRcQtrHKhnymXpMM45x2DYj3s-0_zR2GYkMyfsJyZPwTtpnTFb8UWDolfU24oO9wRvv22drJVLWy5D-hZoNgbpvX_sOzQ-19L0vgrPKufiPwoly2yIfAaEHJAxgNsLr0a0pPC5_9fX1-8EN6tD-bQrOa8Rlav0LynCUyBtjEQ"/></div></div></div></header><main class="flex-1 flex flex-col relative w-full pt-safe pb-safe bg-surface"><div class="flex flex-col w-full px-margin pb-space-xl">
+<!-- Celebratory Animated Particles Canvas Background Simulation -->
+<div class="relative flex flex-col items-center pt-space-lg">
+<!-- Ambient Glow Backdrop -->
+<div class="absolute -top-6 w-56 h-56 rounded-full bg-secondary-fixed/40 blur-3xl pointer-events-none"></div>
+<!-- Celebration Badge / Emblem -->
+<div class="relative flex items-center justify-center w-28 h-28 mb-space-md">
+<!-- Soft Outer Pulsing Ring -->
+<div class="absolute inset-0 rounded-full bg-secondary-container/60 animate-ping opacity-30"></div>
+<!-- Middle Concentric Ring -->
+<div class="absolute inset-1.5 rounded-full bg-surface-container-high/80 shadow-[0_8px_24px_-4px_rgba(168,43,85,0.15)] flex items-center justify-center">
+<!-- Inner Core Ring -->
+<div class="w-20 h-20 rounded-full bg-gradient-to-tr from-primary to-primary-container flex items-center justify-center shadow-inner">
+<span class="material-symbols-outlined text-on-primary text-[42px]" style="font-variation-settings: 'FILL' 1, 'wght' 600;">
+            check_circle
+          </span>
+</div>
+</div>
+<!-- Playful Floating Sparkle Accents -->
+<span class="absolute -top-1 -right-1 text-primary animate-bounce text-[20px] select-none" style="animation-duration: 2.4s;">✦</span>
+<span class="absolute -bottom-1 -left-2 text-primary-container text-[16px] animate-pulse select-none">✧</span>
+<span class="absolute top-2 -left-3 text-tertiary text-[14px] select-none">✦</span>
+</div>
+<!-- Editorial Typography Block -->
+<div class="text-center px-space-xs max-w-xs">
+<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm mb-space-xs tracking-wider uppercase">
+<span class="material-symbols-outlined text-[13px]" style="font-variation-settings: 'FILL' 1;">auto_awesome</span>
+        Sacred Self-Care Ritual
+      </span>
+<h2 class="font-headline-md text-headline-md text-on-surface tracking-tight mb-space-xs">
+        Your Ritual is Confirmed
+      </h2>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+        Thank you, Maya. Your bespoke skincare selection has been recorded to your local app journal.
+      </p>
+</div>
+</div>
+<!-- Primary Order Reference Card -->
+<div class="mt-space-lg bg-surface-container-lowest rounded-xl shadow-[0_4px_20px_-2px_rgba(112,45,70,0.06)] p-space-md">
+<!-- Header with Copy Identifier Micro-interaction -->
+<div class="flex items-center justify-between pb-space-sm">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Order Reference</span>
+<div class="flex items-center gap-1.5 mt-0.5">
+<span class="font-title-lg text-title-lg text-on-surface tracking-tight font-semibold" id="order-ref-text">#GLOW-2025-0842</span>
+<button aria-label="Copy reference code" class="p-1 rounded-full hover:bg-surface-container active:scale-95 transition-transform text-primary" id="copy-btn" onclick="navigator.clipboard?.writeText('#GLOW-2025-0842'); const toast = document.getElementById('toast'); toast.classList.remove('opacity-0','pointer-events-none'); setTimeout(()=&gt;toast.classList.add('opacity-0','pointer-events-none'), 2000);">
+<span class="material-symbols-outlined text-[17px]">content_copy</span>
+</button>
+</div>
+</div>
+<div class="flex items-center gap-1 px-2.5 py-1 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm">
+<span class="w-1.5 h-1.5 rounded-full bg-primary animate-pulse"></span>
+<span>Confirmed</span>
+</div>
+</div>
+<!-- Metadata Attributes Grid -->
+<div class="mt-space-sm pt-space-sm space-y-2.5">
+<div class="flex items-center justify-between">
+<span class="flex items-center gap-2 font-body-sm text-body-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-[18px] text-tertiary">local_shipping</span>
+          Estimated Delivery
+        </span>
+<span class="font-label-md text-label-md text-on-surface text-right">
+          2–3 Business Days
+        </span>
+</div>
+<div class="flex items-center justify-between">
+<span class="flex items-center gap-2 font-body-sm text-body-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-[18px] text-tertiary">payments</span>
+          Payment Method
+        </span>
+<span class="font-label-md text-label-md text-on-surface text-right">
+          Cash on Delivery
+        </span>
+</div>
+<div class="flex items-center justify-between">
+<span class="flex items-center gap-2 font-body-sm text-body-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-[18px] text-tertiary">hourglass_top</span>
+          Fulfillment State
+        </span>
+<span class="font-label-md text-label-md text-primary font-semibold text-right">
+          Pending Dispatch
+        </span>
+</div>
+</div>
+<!-- SQLite Offline Sync Micro-Banner -->
+<div class="mt-space-md p-space-sm rounded-lg bg-surface-container-low flex items-center gap-2.5">
+<div class="w-7 h-7 rounded-full bg-secondary-container flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-primary text-[16px]" style="font-variation-settings: 'FILL' 1;">cloud_done</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-label-sm text-label-sm text-on-surface font-semibold tracking-wide">Local SQLite Archive</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate">Stored in local cache • Table: orders</span>
+</div>
+</div>
+</div>
+<!-- Order Items Summary Card -->
+<div class="mt-space-md bg-surface-container-lowest rounded-xl shadow-[0_4px_20px_-2px_rgba(112,45,70,0.06)] p-space-md">
+<div class="flex items-center justify-between pb-space-sm">
+<h3 class="font-title-md text-title-md text-on-surface font-semibold tracking-tight">Ritual Selection</h3>
+<span class="font-label-sm text-label-sm text-on-surface-variant">2 Formulas</span>
+</div>
+<!-- Item 1 -->
+<div class="flex items-center gap-space-sm py-space-xs">
+<div class="relative w-14 h-14 rounded-lg bg-surface-container overflow-hidden shrink-0">
+<img class="w-full h-full object-cover" data-alt="Minimalist luxury glass dropper bottle of glowing luminous pink dew serum against soft rose-tinted silk fabric studio lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAFKAXO3awvqY6rmuha6jrYnfDXLHw6z_RrpS7kG2XX5ws917CjDx08pgeaQMxStpxXy_2zphtlszHDVEPweeunN8HHRSOHpFrhZdXu_sdGTD0hekw6-G-yGw0MLimR6TcAX3eKyr3tQm9GAbc2GAac2oUaOdMvuIaJLwQoAd5czI2c1uG8mayCprq51f0f41jf0B5TZPcHe-h0bYhFD6u1v5Wb6OccKC_889bBVZfPUSO4-f8Qhdynww"/>
+</div>
+<div class="flex-1 min-w-0">
+<p class="font-label-lg text-label-lg text-on-surface truncate font-semibold">Luminous Dew Drop Serum</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">30ml • Hydration Boost</p>
+</div>
+<div class="text-right shrink-0">
+<span class="font-label-sm text-label-sm text-on-surface-variant block">Qty: 1</span>
+<span class="font-price-md text-price-md text-on-surface">PKR 4,800</span>
+</div>
+</div>
+<!-- Subtle Divider -->
+<div class="h-[1px] w-full bg-surface-container-high my-2"></div>
+<!-- Item 2 -->
+<div class="flex items-center gap-space-sm py-space-xs">
+<div class="relative w-14 h-14 rounded-lg bg-surface-container overflow-hidden shrink-0">
+<img class="w-full h-full object-cover" data-alt="High-end clear bottle with golden wand of tinted velvet rose petal lip oil sitting on blush stone pedestal." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBgRRaKZqrgEjWDMPV1l80IpqTuOMiG8w5EfFCJ6rGr-fB3xx-33kxX70ngurCjEov9bVLIcjMelLJ0ABlf3mn9GKsJHbc1Kswd6t9LGyD--B0ZdfKsVZ4UZTOyzOXztcb5CDQBKh6ay8g-dbLpqUy__BNnTD2J33AuHxFkx8EVxIDDKvURCX1MPqPS_RUYw-XMU17OxJW8CMiAbmgIIlo--90L8x-Kso27OMQDXmbdithDmXdGIP86mg"/>
+</div>
+<div class="flex-1 min-w-0">
+<p class="font-label-lg text-label-lg text-on-surface truncate font-semibold">Velvet Petal Lip Oil</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Rose Petal 02 • Nourish</p>
+</div>
+<div class="text-right shrink-0">
+<span class="font-label-sm text-label-sm text-on-surface-variant block">Qty: 1</span>
+<span class="font-price-md text-price-md text-on-surface">PKR 2,450</span>
+</div>
+</div>
+<!-- Pricing Ledger -->
+<div class="mt-space-sm pt-space-sm bg-surface-container-low rounded-lg p-space-sm space-y-1.5">
+<div class="flex justify-between font-body-sm text-body-sm text-on-surface-variant">
+<span>Subtotal</span>
+<span>PKR 7,250</span>
+</div>
+<div class="flex justify-between font-body-sm text-body-sm text-on-surface-variant">
+<span>Delivery (Karachi Express)</span>
+<span class="text-primary font-semibold uppercase tracking-wider text-[11px]">Free Complimentary</span>
+</div>
+<div class="flex justify-between font-title-lg text-title-lg text-on-surface pt-1">
+<span class="font-semibold">Total Amount</span>
+<span class="font-price-lg text-price-lg text-primary font-bold">PKR 7,250</span>
+</div>
+</div>
+</div>
+<!-- Interactive Action CTAs -->
+<div class="mt-space-lg flex flex-col gap-space-sm">
+<!-- Primary CTA: View Order Details -->
+<button class="w-full h-[52px] rounded-full bg-primary text-on-primary font-label-lg text-label-lg font-semibold flex items-center justify-center gap-2 shadow-[0_8px_20px_-4px_rgba(168,43,85,0.35)] active:scale-[0.98] transition-transform" type="button">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">receipt_long</span>
+<span>View Order Details</span>
+</button>
+<!-- Secondary CTA: Continue Shopping -->
+<button class="w-full h-[52px] rounded-full bg-surface-container-lowest text-primary font-label-lg text-label-lg font-semibold flex items-center justify-center gap-2 shadow-sm hover:bg-surface-container-low active:scale-[0.98] transition-transform" type="button">
+<span class="material-symbols-outlined text-[20px]">shopping_bag</span>
+<span>Continue Shopping</span>
+</button>
+</div>
+<!-- Honest Student Showcase Disclaimer Footer -->
+<div class="mt-space-xl text-center px-space-md">
+<div class="inline-flex items-center gap-1.5 text-on-surface-variant font-label-sm text-label-sm bg-surface-container-high/60 px-3 py-1.5 rounded-full">
+<span class="material-symbols-outlined text-[15px] text-tertiary">info</span>
+<span>Student showcase simulation</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant/80 mt-1 max-w-xs mx-auto">
+      No actual financial transaction was processed. This order is archived strictly within your device's test profile.
+    </p>
+</div>
+<!-- Micro Toast Notification for Clip Action -->
+<div class="fixed bottom-6 left-1/2 -translate-x-1/2 bg-inverse-surface text-inverse-on-surface px-4 py-2 rounded-full font-label-md text-label-md shadow-xl transition-opacity duration-300 opacity-0 pointer-events-none flex items-center gap-1.5 z-50" id="toast">
+<span class="material-symbols-outlined text-[16px] text-primary-fixed">check</span>
+    Order code copied to clipboard
+  </div>
+</div></main></body></html>
